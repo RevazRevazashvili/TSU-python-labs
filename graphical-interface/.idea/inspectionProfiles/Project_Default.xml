@@ -1,0 +1,21 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="8">
+            <item index="0" class="java.lang.String" itemvalue="sentence_transformers" />
+            <item index="1" class="java.lang.String" itemvalue="spacy" />
+            <item index="2" class="java.lang.String" itemvalue="langchain" />
+            <item index="3" class="java.lang.String" itemvalue="streamlit_chat" />
+            <item index="4" class="java.lang.String" itemvalue="streamlit" />
+            <item index="5" class="java.lang.String" itemvalue="pinecone-client" />
+            <item index="6" class="java.lang.String" itemvalue="langchain_community" />
+            <item index="7" class="java.lang.String" itemvalue="PyPDF2" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

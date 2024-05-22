@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>connect</class>
+ <widget class="QMainWindow" name="connect">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>512</width>
+    <height>402</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="labe_connect_db">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>40</y>
+      <width>130</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>დაუკავშირდით ბაზას</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_connect">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>80</y>
+      <width>180</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>ბაზის სახელი</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_connect">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>120</y>
+      <width>90</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>დაკავშირება</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_status">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>100</y>
+      <width>220</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_add">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>260</y>
+      <width>188</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ელემენტის ჩამატება ბაზაში</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_delete">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>190</y>
+      <width>188</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ელემენტის წაშლა ბაზიდან</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_update">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>260</y>
+      <width>188</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ელემენტის განახლება ბაზაში</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_select">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>190</y>
+      <width>188</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ელემენტის მიღება ბაზიდან</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>512</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
